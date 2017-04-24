@@ -1,0 +1,99 @@
+/* navbar styling */
+input.input-search  {
+	width: 600px;
+}
+
+.youtube-logo {
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+}
+
+.header-items {
+	float: left;
+}
+
+.clr {
+	clear: both;
+}
+
+.input-search-div {
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+/* main section styling */
+.main-section {
+	background-color: #EEEEEE;
+}
+
+.video-preview, .video-list {
+	background-color: #FFFFFF;
+}
+
+.video-list {
+	margin-bottom: 20px;
+}
+
+.side-bar {
+	-webkit-box-flex: 1;
+    flex: 1;
+    max-height: 75vh;
+    overflow: scroll;
+}
+
+.video-preview, .side-bar {
+	padding: 30px;
+} 
+
+.video-preview {
+	margin-bottom: 20px;
+}
+
+.main-section-margin {
+	margin-top: 2%;
+}
+
+.video-preview-details {
+	background-color: #FFFFFF;
+	margin-top: 3%;
+	padding: 30px;
+	margin-bottom: 3%;
+}
+
+.video-list-items {
+	list-style: none;
+}
+
+.list-item-avatar {
+	float: left;
+}
+
+.list-item-title {
+	float: right;
+}
+
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+    width: 390px;
+}
+
+.video-thumbnail {
+	width: 130px;
+	height: 70px;
+}
+
+.video-item-link {
+	color: #000000;
+}
+
+.video-item-link:hover {
+	color: #000000;
+}
+
+.video-item {
+	margin-bottom: 20px;
+}
+
+.hr-styling {
+	padding-top: 20px;
+}
