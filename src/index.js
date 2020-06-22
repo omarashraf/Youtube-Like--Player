@@ -10,7 +10,7 @@ import './css/index.css';
 import './css/foundation.css';
 import './css/foundation.min.css';
 
-const API_KEY = "AIzaSyDPqn6kJdiuTzAA5-oj6vTxjxVr17Q0NHU";
+const API_KEY = "AIzaSyDzyniT1WwdK0QbKJMBfPc8mrz8eki3vos";
 const API_URL = "https://www.googleapis.com/youtube/v3/search";
 
 let api_params = {
@@ -38,6 +38,8 @@ class App extends React.Component {
 
 		axios.get(API_URL, {params: api_params}).then(response => {
 			this.setState({videos: response.data.items, activeVIndex: 0});
+		}).catch(err => {
+			console.log(err);
 		});
 	}
 
